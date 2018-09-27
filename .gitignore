@@ -7,3 +7,5 @@
 /build
 /captures
 .externalNativeBuild
+bintray.user=chengang1001
+bintray.apikey=30959bece3d68a279c29397b6bbd1bdcd856df95

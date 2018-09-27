@@ -1,4 +1,4 @@
-package com.chengang.libutils;
+package com.chengang.utils;
 
 import android.content.Context;
 import android.content.SharedPreferences;

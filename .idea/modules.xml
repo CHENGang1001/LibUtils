@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/LibUtils.iml" filepath="$PROJECT_DIR$/LibUtils.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libutils/libutils.iml" filepath="$PROJECT_DIR$/libutils/libutils.iml" />
     </modules>
   </component>
 </project>
