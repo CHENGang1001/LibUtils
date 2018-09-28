@@ -1,5 +1,7 @@
-apply plugin: 'com.novoda.bintray-release'
 apply plugin: 'com.android.library'
+
+apply plugin: 'com.novoda.bintray-release'
+
 
 android {
     compileSdkVersion 28
@@ -8,13 +10,15 @@ android {
         abortOnError false
     }
     publish {
-        repoName = 'com.chengang.utils'           //bintray仓库名
+        repoName = 'chengang'           //bintray仓库名
         userOrg = 'chengang1001'           //bintray注册的用户名
         groupId = 'com.chengang.utils'            //compile引用时的第1部分groupId
         artifactId = 'LibUtils'       //compile引用时的第2部分项目名
-        publishVersion = '1.0'       //compile引用时的第3部分版本号
+        publishVersion = '1.0.2'       //compile引用时的第3部分版本号
         desc = 'This is a http library for Android'
         website = 'https://github.com/CHENGang1001/LibUtils'
+
+
     }
 
 
@@ -44,4 +48,6 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+//    implementation 'com.chengang.utils:LibUtils:1.0'
 }
+
